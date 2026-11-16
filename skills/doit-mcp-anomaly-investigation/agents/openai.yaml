@@ -1,0 +1,11 @@
+interface:
+  display_name: "DoiT MCP Anomaly Investigation"
+  short_description: "Investigate DoiT cost anomalies with MCP"
+  default_prompt: "Use $doit-mcp-anomaly-investigation to investigate a DoiT cost anomaly and confirm what drove it."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "doit-mcp-server"
+      description: "DoiT Cloud Intelligence MCP server — anomaly listing, anomaly details, reporting"
+      transport: "sse"
+      url: "https://mcp.doit.com/sse"

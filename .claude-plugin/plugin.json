@@ -1,0 +1,26 @@
+{
+  "name": "doit-mcp",
+  "description": "DoiT Cloud Intelligence for Claude: tools and skills for cloud cost analysis, reporting, anomalies, budgets and alerts.",
+  "version": "1.2.0",
+  "author": {
+    "name": "DoiT International"
+  },
+  "homepage": "https://github.com/doitintl/doit-mcp-skills",
+  "repository": "https://github.com/doitintl/doit-mcp-skills",
+  "license": "MIT",
+  "keywords": [
+    "cloud",
+    "cost-management",
+    "finops",
+    "mcp",
+    "aws",
+    "gcp",
+    "azure",
+    "reporting",
+    "anomaly-detection",
+    "doit"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "privacyPolicyUrl": "https://www.doit.com/privacy"
+}
